@@ -1,10 +1,10 @@
-package org.dimhat.springmvc.editor;
+package org.dimhat.springmvc.old.editor;
 
 import java.beans.PropertyEditorSupport;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.dimhat.springmvc.model.PhoneNumberModel;
+import org.dimhat.springmvc.old.model.PhoneNumberModel;
 import org.springframework.util.StringUtils;
 
 /**

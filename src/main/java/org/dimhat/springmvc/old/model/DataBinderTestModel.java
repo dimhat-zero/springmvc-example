@@ -1,4 +1,4 @@
-package org.dimhat.springmvc.model;
+package org.dimhat.springmvc.old.model;
 
 import java.util.Date;
 import java.util.List;

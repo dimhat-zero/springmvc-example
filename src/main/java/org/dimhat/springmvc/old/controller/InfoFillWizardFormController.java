@@ -1,4 +1,4 @@
-package org.dimhat.springmvc.controller;
+package org.dimhat.springmvc.old.controller;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -7,7 +7,7 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.dimhat.springmvc.model.UserModel;
+import org.dimhat.springmvc.old.model.UserModel;
 import org.springframework.validation.BindException;
 import org.springframework.validation.Errors;
 import org.springframework.web.servlet.ModelAndView;

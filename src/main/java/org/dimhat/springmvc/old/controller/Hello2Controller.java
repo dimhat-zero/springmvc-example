@@ -1,4 +1,4 @@
-package org.dimhat.springmvc.controller;
+package org.dimhat.springmvc.old.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

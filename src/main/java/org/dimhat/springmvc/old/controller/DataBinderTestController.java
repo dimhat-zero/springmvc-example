@@ -1,4 +1,4 @@
-package org.dimhat.springmvc.controller;
+package org.dimhat.springmvc.old.controller;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -7,9 +7,9 @@ import java.util.Date;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.dimhat.springmvc.editor.PhoneNumberEditor;
-import org.dimhat.springmvc.model.DataBinderTestModel;
-import org.dimhat.springmvc.model.PhoneNumberModel;
+import org.dimhat.springmvc.old.editor.PhoneNumberEditor;
+import org.dimhat.springmvc.old.model.DataBinderTestModel;
+import org.dimhat.springmvc.old.model.PhoneNumberModel;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.validation.BindException;
 import org.springframework.web.bind.ServletRequestDataBinder;
