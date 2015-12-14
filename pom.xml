@@ -91,7 +91,7 @@
 			<version>4.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- servlet拦截器所需jar包 -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -104,7 +104,7 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.0.1</version>
 		</dependency>
-		
+
 		<!-- json数据 -->
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
@@ -117,9 +117,22 @@
 			<artifactId>fastjson</artifactId>
 			<version>1.1.18</version>
 		</dependency>
-		
+
+		<!-- validate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>4.3.1.Final</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.1.0.Final</version>
+		</dependency>
+
 	</dependencies>
-	
+
 	<build>
 		<finalName>springmvc</finalName>
 	</build>

@@ -9,7 +9,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>">
     
-    <title>My JSP 'success.jsp' starting page</title>
+    <title>My JSP 'exception.jsp' starting page</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -23,11 +23,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    下面两种方式可以访问值<br/>
-    用户名：${currentUser.username }
-    值：${currentUser.value }
-    <br/>
-   用户名： ${sessionScope.currentUser.username }
-  值：  ${sessionScope.currentUser.value }
+  Session中的登录信息为空
   </body>
 </html>

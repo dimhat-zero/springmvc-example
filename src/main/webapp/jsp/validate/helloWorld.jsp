@@ -3,13 +3,13 @@
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
-
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %> 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
     <base href="<%=basePath%>">
     
-    <title>My JSP 'success.jsp' starting page</title>
+    <title>My JSP 'error.jsp' starting page</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -23,11 +23,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    下面两种方式可以访问值<br/>
-    用户名：${currentUser.username }
-    值：${currentUser.value }
-    <br/>
-   用户名： ${sessionScope.currentUser.username }
-  值：  ${sessionScope.currentUser.value }
+	  
+	<form:form commandName="user">  
+	    <form:errors path="*" cssStyle="color:red"></form:errors><br/>  
+	</form:form>  
+	${attributeName }
   </body>
 </html>
